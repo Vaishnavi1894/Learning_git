@@ -5,8 +5,14 @@ operation = input("Enter the Operation you need to perform:")
 def calculator():
     if operation == "add":
         print(a+b)
-    else:
+    elif operation == "sub":
         print(a-b)
-    
+    elif operation == "mull":
+        print(a*b)
+    elif operation == "div":
+        print(a%b)
+    else:
+        print("Invalid Operation")
+
 calculator()
 
